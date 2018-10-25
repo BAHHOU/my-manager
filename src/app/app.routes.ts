@@ -5,11 +5,11 @@ import { HomeComponent } from "./component/home/home.component";
 
 const routes: Routes = [
   {
-    path: "",
+    path: "login",
     component: LoginComponent
   },
   {
-    path: "home",
+    path: "",
     component: HomeComponent
   }
 ];

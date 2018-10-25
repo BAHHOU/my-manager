@@ -1,8 +1,9 @@
-$my-color: red; 
+$font-stack: "Lato", Helvetica, sans-serif;
 
-.myclass {
-    background-color: $my-color;
-    min-width: 100px;
-    min-height: 100px;
-    border: 1px solid $my-color;
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  font-family: $font-stack;
 }
