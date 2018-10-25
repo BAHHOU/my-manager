@@ -1,14 +1,16 @@
 import { ExtraOptions, RouterModule, Routes } from "@angular/router";
 import { NgModule } from "@angular/core";
 import { LoginComponent } from "./component/login/login.component";
+import { HomeComponent } from "./component/home/home.component";
 
 const routes: Routes = [
   {
     path: "",
-    component: LoginComponent,
-    data: {
-      title: "Home"
-    }
+    component: LoginComponent
+  },
+  {
+    path: "home",
+    component: HomeComponent
   }
 ];
 
